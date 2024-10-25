@@ -1,2 +1,0 @@
-[console_scripts]
-service_node = task03.service_node:main
