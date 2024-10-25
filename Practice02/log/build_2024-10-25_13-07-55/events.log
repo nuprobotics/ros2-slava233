@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000182] (task01) JobQueued: {'identifier': 'task01', 'dependencies': OrderedDict()}
+[0.000360] (task01) JobStarted: {'identifier': 'task01'}
+[0.099949] (-) TimerEvent: {}
+[0.200206] (-) TimerEvent: {}
+[0.300461] (-) TimerEvent: {}
+[0.400699] (-) TimerEvent: {}
+[0.454147] (task01) Command: {'cmd': ['/usr/bin/python', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task01', 'build', '--build-base', '/home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/build', 'install', '--record', '/home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/svyat/PycharmProjects/ros2-slava233/Practice02/src/task01', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'SESSION_MANAGER': 'local/thinkpad-x1-extreme:@/tmp/.ICE-unix/1294,unix/thinkpad-x1-extreme:/tmp/.ICE-unix/1294', 'XDG_CONFIG_DIRS': '/home/svyat/.config/kdedefaults:/etc/xdg', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_MENU_PREFIX': 'plasma-', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'PKG_CONFIG_PATH': '/opt/ros/iron/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'ICEAUTHORITY': '/run/user/1000/iceauth_OVMyxH', 'LANGUAGE': '', 'LC_ADDRESS': 'C', 'LC_NAME': 'ru_RU.UTF-8', 'TERM_SESSION_ID': '9c4246d9-fd1a-4c4b-b72d-4a04a8d3dc6c', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'DESKTOP_SESSION': 'plasma', 'LC_MONETARY': 'en_CY.UTF-8', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/svyat/.gtkrc:/home/svyat/.config/gtkrc', 'EDITOR': 'nano', 'XDG_SEAT': 'seat0', 'PWD': '/home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01', 'LOGNAME': 'svyat', 'XDG_SESSION_DESKTOP': 'KDE', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1334', 'XAUTHORITY': '/run/user/1000/xauth_kPNnfT', 'MOTD_SHOWN': 'pam', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/svyat/.gtkrc-2.0:/home/svyat/.config/gtkrc-2.0', 'HOME': '/home/svyat', 'LC_PAPER': 'C', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'WAYLAND_DISPLAY': 'wayland-0', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'CMAKE_PREFIX_PATH': '/opt/ros/iron', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'COLCON_PREFIX_PATH': '/opt/ros/iron', 'INVOCATION_ID': '5b3e0060c0a84612936b034e65791dd7', 'MANAGERPID': '1097', 'KDE_SESSION_UID': '1000', 'QV4_GC_TIMELIMIT': '0', 'XKB_DEFAULT_LAYOUT': 'us,ru', 'XDG_ACTIVATION_TOKEN': 'kwin-10', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/prefix_override:/home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/lib/python3.12/site-packages:/home/svyat/.cache/yay/ros2-iron/src/install/lib/python3.12/dist-packages:/opt/ros/iron/lib/python3.12/site-packages', 'COLCON': '1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'TERM': 'xterm-256color', 'USER': 'svyat', 'QT_WAYLAND_RECONNECT': '1', 'KDE_SESSION_VERSION': '6', 'DISPLAY': ':1', 'SHLVL': '1', 'LC_TELEPHONE': 'el_CY.UTF-8', 'LC_MEASUREMENT': 'C', 'XDG_VTNR': '1', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/yaml_cpp_vendor/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DEBUGINFOD_URLS': 'https://debuginfod.archlinux.org', 'LC_TIME': 'ru_RU.UTF-8', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:17848', 'KDE_FULL_SESSION': 'true', 'BROWSER': 'firefox', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'MAIL': '/var/spool/mail/svyat', 'ROS_DISTRO': 'iron', 'XKB_DEFAULT_OPTIONS': 'grp:alt_shift_toggle', 'LC_NUMERIC': 'C', 'OLDPWD': '/home/svyat/PycharmProjects/ros2-slava233/Practice02/src', '_': '/usr/bin/env'}, 'shell': False}
+[0.500846] (-) TimerEvent: {}
+[0.601023] (-) TimerEvent: {}
+[0.614522] (task01) StdoutLine: {'line': b'running egg_info\n'}
+[0.614782] (task01) StdoutLine: {'line': b'creating ../../build/task01/task01.egg-info\n'}
+[0.624048] (task01) StdoutLine: {'line': b'writing ../../build/task01/task01.egg-info/PKG-INFO\n'}
+[0.624269] (task01) StdoutLine: {'line': b'writing dependency_links to ../../build/task01/task01.egg-info/dependency_links.txt\n'}
+[0.624354] (task01) StdoutLine: {'line': b'writing entry points to ../../build/task01/task01.egg-info/entry_points.txt\n'}
+[0.624508] (task01) StdoutLine: {'line': b'writing requirements to ../../build/task01/task01.egg-info/requires.txt\n'}
+[0.624583] (task01) StdoutLine: {'line': b'writing top-level names to ../../build/task01/task01.egg-info/top_level.txt\n'}
+[0.624629] (task01) StdoutLine: {'line': b"writing manifest file '../../build/task01/task01.egg-info/SOURCES.txt'\n"}
+[0.671836] (task01) StdoutLine: {'line': b"reading manifest file '../../build/task01/task01.egg-info/SOURCES.txt'\n"}
+[0.672483] (task01) StdoutLine: {'line': b"writing manifest file '../../build/task01/task01.egg-info/SOURCES.txt'\n"}
+[0.672559] (task01) StdoutLine: {'line': b'running build\n'}
+[0.672607] (task01) StdoutLine: {'line': b'running build_py\n'}
+[0.672725] (task01) StdoutLine: {'line': b'creating /home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/build\n'}
+[0.672801] (task01) StdoutLine: {'line': b'creating /home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/build/lib\n'}
+[0.672850] (task01) StdoutLine: {'line': b'creating /home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/build/lib/task01\n'}
+[0.672892] (task01) StdoutLine: {'line': b'copying task01/__init__.py -> /home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/build/lib/task01\n'}
+[0.673013] (task01) StdoutLine: {'line': b'copying task01/receiver.py -> /home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/build/lib/task01\n'}
+[0.673089] (task01) StdoutLine: {'line': b'running install\n'}
+[0.680919] (task01) StdoutLine: {'line': b'running install_lib\n'}
+[0.693778] (task01) StdoutLine: {'line': b'creating /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/lib/python3.12/site-packages/task01\n'}
+[0.693858] (task01) StdoutLine: {'line': b'copying /home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/build/lib/task01/__init__.py -> /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/lib/python3.12/site-packages/task01\n'}
+[0.693921] (task01) StdoutLine: {'line': b'copying /home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/build/lib/task01/receiver.py -> /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/lib/python3.12/site-packages/task01\n'}
+[0.694334] (task01) StdoutLine: {'line': b'byte-compiling /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/lib/python3.12/site-packages/task01/__init__.py to __init__.cpython-312.pyc\n'}
+[0.694542] (task01) StdoutLine: {'line': b'byte-compiling /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/lib/python3.12/site-packages/task01/receiver.py to receiver.cpython-312.pyc\n'}
+[0.694989] (task01) StdoutLine: {'line': b'running install_data\n'}
+[0.695051] (task01) StdoutLine: {'line': b'creating /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/share/ament_index\n'}
+[0.695106] (task01) StdoutLine: {'line': b'creating /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/share/ament_index/resource_index\n'}
+[0.695771] (task01) StdoutLine: {'line': b'creating /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/share/ament_index/resource_index/packages\n'}
+[0.695820] (task01) StdoutLine: {'line': b'copying resource/task01 -> /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/share/ament_index/resource_index/packages\n'}
+[0.695897] (task01) StdoutLine: {'line': b'copying package.xml -> /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/share/task01\n'}
+[0.695971] (task01) StdoutLine: {'line': b'creating /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/share/task01/launch\n'}
+[0.696048] (task01) StdoutLine: {'line': b'copying launch/task01.launch -> /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/share/task01/launch\n'}
+[0.696103] (task01) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.701074] (-) TimerEvent: {}
+[0.705956] (task01) StdoutLine: {'line': b'Copying ../../build/task01/task01.egg-info to /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/lib/python3.12/site-packages/task01-0.0.0-py3.12.egg-info\n'}
+[0.706316] (task01) StdoutLine: {'line': b'running install_scripts\n'}
+[0.760284] (task01) StdoutLine: {'line': b'Installing receiver script to /home/svyat/PycharmProjects/ros2-slava233/Practice02/install/task01/lib/task01\n'}
+[0.760441] (task01) StdoutLine: {'line': b"writing list of installed files to '/home/svyat/PycharmProjects/ros2-slava233/Practice02/build/task01/install.log'\n"}
+[0.776624] (task01) CommandEnded: {'returncode': 0}
+[0.782162] (task01) JobEnded: {'identifier': 'task01', 'rc': 0}
+[0.782586] (-) EventReactorShutdown: {}
