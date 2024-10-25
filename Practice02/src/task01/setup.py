@@ -16,7 +16,7 @@ setup(
     zip_safe=True,
     maintainer='slava233',
     maintainer_email='harik10346@gmail.com',
-    description='TODO: Package description',
+    description='Message Receiver',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
